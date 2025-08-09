@@ -1,12 +1,12 @@
 body{
-    color:rgb(232, 39, 206);
-    background-color: rgb(110, 94, 94);
+    color:blue;
+    background:black;
 }
 header{
-    border-bottom: solid 2 px yellowgreen;
-    padding: 20 px;
-    font-size: 32 px;
-    color: brown;
+       border-bottom: solid 2px deepskyblue; 
+       padding: 20 px;
+       font-size: 32 px;
+       color: red; 
 }
 section {
     background: rgb(184,156,213);
@@ -15,7 +15,20 @@ section {
     display: flex;
     justify-content: center;
 }
-
 .chamada-texto {
     margin-right: 5%;
 }
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}   
